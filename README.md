@@ -20,16 +20,22 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델을 구현
 
 ## 실험결과
 ### LeNet5
-![NeNet5_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/f30ecf4d-bf72-4bee-9ad8-3059bdf12467s=0.3)
-![NeNet5_train_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/ac3438e4-8830-4db9-824c-af833821c059)
-![NeNet5_test_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/06e16218-7f63-40a8-a0ba-58feecee890e)
-![NeNet5_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/564789d0-2d18-4b53-9c40-c65479973cbc)
+![LeNet5_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/c4fd892b-0331-49ca-bb35-2bc29aac7e3b)
+![LeNet5_train_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/7cb3e2d6-2ef5-4c2c-a81a-59d264e08201)
+![LeNet5_test_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/40e9b20c-8ce5-413c-b037-107f5da20b77)
+![LeNet5_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/903d67c5-fb94-4094-b4f9-d0b41c3a273d)
 
 ### Custom MLP
 ![CustomMLP_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/0faf4433-53fd-4977-9994-71298bc85105)
 ![CustomMLP_train_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/bb8fd77e-608e-47f6-9eaa-bbfa707eb9e6)
 ![CustomMLP_test_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/5535032e-82aa-4de5-a670-953928801dda)
 ![CustomMLP_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/0e776def-3fc3-413a-a361-575a1f1de70a)
+
+### Test Loss 및 Accuracy
+| MNIST     | Loss      | Accuracy  |
+|-----------|-----------|-----------|
+| LeNet5    | 0.096     | 0.973     |
+| Custom MLP| 0.046     | 0.986     |
 
 ## 요구사항
 
