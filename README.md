@@ -28,6 +28,8 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델 구현
   - test_loader : LeNet5_test_loader, CST_MLPLeNet5_test_loader
   - device : "cpu", "cuda"
   - epochs : 10, 20, 30, ...
+  - Learning rate : 0.01
+  - Optimizer : SGD (momentum = 0.9)
 
 ## 실험결과
 ### LeNet5
