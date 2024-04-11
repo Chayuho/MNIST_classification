@@ -15,7 +15,7 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델 구현
 
 ### Custom MLP (Num of parameters : 61,745)
 - Number of Layers : 3
-  - Layer 1 : input_size (1, 32, 32) -> (1, 32*32)
+  - Layer 1 : img_size (1, 32, 32) -> (1, 32*32) * 59
   - Layer 2 : 59 * 18
   - Layer 3 : 18 * num_class(10)
 - dropout : 0.3
