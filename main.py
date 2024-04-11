@@ -150,11 +150,11 @@ def main():
     
     LeNet5_model = LeNet5(num_class=10)
     print("LeNet5 :", sum(p.numel() for p in LeNet5_model.parameters() if p.requires_grad))
-    LeNet5_optimizer = torch.optim.SGD(LeNet5_model.parameters(), lr=0.01)
+    LeNet5_optimizer = torch.optim.SGD(LeNet5_model.parameters(), lr=0.01, momentum = 0.9)
     
     CustomMLP_model = CustomMLP(input_size = dense_img_size, num_class=10)
     print("CustomMLP_model :", sum(p.numel() for p in CustomMLP_model.parameters() if p.requires_grad))
-    CustomMLP_optimizer = torch.optim.SGD(CustomMLP_model.parameters(), lr=0.01)
+    CustomMLP_optimizer = torch.optim.SGD(CustomMLP_model.parameters(), lr=0.01, momentum = 0.9)
     
     
     
