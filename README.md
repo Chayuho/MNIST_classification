@@ -19,7 +19,7 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델을 구현
   - epochs : 10, 20, 30, ...
 
 ## 실험결과
-![NeNet5_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/f30ecf4d-bf72-4bee-9ad8-3059bdf12467s=20)
+![NeNet5_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/f30ecf4d-bf72-4bee-9ad8-3059bdf12467s=0.3)
 ![NeNet5_train_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/ac3438e4-8830-4db9-824c-af833821c059)
 ![NeNet5_test_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/06e16218-7f63-40a8-a0ba-58feecee890e)
 ![NeNet5_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/564789d0-2d18-4b53-9c40-c65479973cbc)
