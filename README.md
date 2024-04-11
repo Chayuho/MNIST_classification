@@ -45,8 +45,8 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델 구현
 ### Test Loss 및 Accuracy
 | MNIST     | Loss      | Accuracy  |
 |-----------|-----------|-----------|
-| LeNet5    | 0.096     | 0.973     |
-| Custom MLP| 0.046     | 0.986     |
+| LeNet5    | 0.046     | 0.986     |
+| Custom MLP| 0.096     | 0.973     |
 
 ## 요구사항
 - requirements.txt
