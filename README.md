@@ -19,14 +19,14 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델을 구현
   - epochs : 10, 20, 30, ...
 
 ## 실험결과
-![NeNet5_train_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/e70456ac-34d0-4ede-83af-43509c87f77b){:width="50%" height="50%"}
-![NeNet5_train_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/287c05a8-edb9-4370-90b9-15e657b9dfc3){:width="50%" height="50%"}
-![NeNet5_test_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/a3c8bb4e-cea8-47a8-b587-fae4baeb6276){:width="50%" height="50%"}
-![NeNet5_test_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/ecd07bd7-232c-4032-bccc-a595a7952890){:width="50%" height="50%"}
-![CustomMLP_train_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/89bc8712-f222-473e-ab8a-270dab3bcc2d){:width="50%" height="50%"}
-![CustomMLP_train_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/ea8a8d76-2ea8-4186-be2d-13142a5e4bb8){:width="50%" height="50%"}
-![CustomMLP_test_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/c539e6ff-d9b0-4b3a-8ae7-598beaa78ed5){:width="50%" height="50%"}
-![CustomMLP_test_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/7ae0f323-f296-445e-8efe-1792f1598231){:width="50%" height="50%"}
+![NeNet5_train_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/e70456ac-34d0-4ede-83af-43509c87f77b)
+![NeNet5_train_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/287c05a8-edb9-4370-90b9-15e657b9dfc3)
+![NeNet5_test_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/a3c8bb4e-cea8-47a8-b587-fae4baeb6276)
+![NeNet5_test_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/ecd07bd7-232c-4032-bccc-a595a7952890)
+![CustomMLP_train_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/89bc8712-f222-473e-ab8a-270dab3bcc2d)
+![CustomMLP_train_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/ea8a8d76-2ea8-4186-be2d-13142a5e4bb8)
+![CustomMLP_test_loss](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/c539e6ff-d9b0-4b3a-8ae7-598beaa78ed5)
+![CustomMLP_test_acc](https://github.com/uuuuhoo/LeNet5-CustomMLP/assets/166509489/7ae0f323-f296-445e-8efe-1792f1598231)
 
 ## 요구사항
 
