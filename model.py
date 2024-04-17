@@ -15,14 +15,14 @@ class LeNet5(nn.Module):
     """
 
     def __init__(self, num_class):
-
-        # write your codes here
         super(LeNet5, self).__init__()
         
         self.conv1 = nn.Conv2d(in_channels=1, out_channels=6, kernel_size=5, stride=1)
         self.conv2 = nn.Conv2d(in_channels=6, out_channels=16, kernel_size=5, stride=1)
         self.nonlinear = nn.Tanh()
         self.dropout = nn.Dropout(0.3)
+        self.bn1 = nn.BatchNorm2d(6)
+        self.bn2 = nn.BatchNorm2d(16)
         
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
@@ -32,13 +32,13 @@ class LeNet5(nn.Module):
         
 
     def forward(self, img):
-        
-        # write your codes here
         output = self.conv1(img)
+        output = self.bn1(output)
         output = self.nonlinear(output)
         output = self.pool(output)
         
         output = self.conv2(output)
+        output = self.bn2(output)
         output = self.nonlinear(output)
         output = self.pool(output)
 
@@ -70,10 +70,12 @@ class CustomMLP(nn.Module):
         self.layer3 = nn.Linear(18, num_class)
         self.nonlinear = nn.ReLU()
         self.dropout = nn.Dropout(0.3)
-        # write your codes here
+        self.b_normal = nn.BatchNorm2d(59)
+        
 
     def forward(self, img):
         output = self.layer1(img)
+        output = self.b_normal(output)
         output = self.nonlinear(output)
         output = self.dropout(output)
         output = self.layer2(output)
@@ -81,7 +83,7 @@ class CustomMLP(nn.Module):
         output = self.dropout(output)
         output = self.layer3(output)
         output = output.squeeze(dim=1)
-        # write your codes here
+        
 
         return output
 
